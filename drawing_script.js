@@ -92,7 +92,7 @@ function drawTank(x, y, ang) {
   ctx.fillStyle = "darkblue"; // the inner part can have a different color
   // Rotates rectangle before we draw it
   ctx.translate(x, y);
-  ctx.rotate(angle - Math.PI / 2);
+  ctx.rotate(ang - Math.PI / 2);
   ctx.translate(-x, -y);
 
   // actually draw the tank at the correct position with the correct widegh
